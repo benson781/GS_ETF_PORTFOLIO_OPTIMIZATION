@@ -69,7 +69,7 @@ The program follows a structured approach to portfolio optimization:
 ## Results
 The project demonstrates the effectiveness of portfolio optimization when applied to a set of Goldman Sachs ETFs.
 
-Before Optimization (Equal Weights)
+## Before Optimization (Equal Weights)
 
 An initial portfolio was constructed with an equal allocation of 20% to each ETF. Its performance metrics were:
 
@@ -81,7 +81,7 @@ Annual variance: 2.0%
 
 This allocation provided a balanced but unoptimized portfolio, leaving room for improvement in risk-adjusted performance.
 
-After Optimization (Maximizing Sharpe Ratio)
+## After Optimization (Maximizing Sharpe Ratio)
 
 Using the PyPortfolioOpt library, the portfolio was optimized to maximize the Sharpe ratio. The optimal allocation favored a mix of the Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF (GSLC) and Goldman Sachs Physical Gold ETF (AAAU), while assigning negligible weight to the other ETFs.
 
